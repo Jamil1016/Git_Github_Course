@@ -116,3 +116,7 @@ git commit -am "merging with master" # to save the merge changes in current bran
  # to completely remove any changes
  git reset --hard cda28e91ba4ab80ea5b84041b04a95f1d0dfa37d
  ```
+
+ ## Fork in Github
+
+ Using fork it will make a complete copy of a repository. In this way you can make a changes to a repository of others as your copy.

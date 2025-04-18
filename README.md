@@ -87,3 +87,9 @@ git push --set-upstream origin feature-readme-instructions # this will push the 
 1. In github a notif will show saying "make a pull request".
 2. In the comment write a description of changes made.
 3. If no problem encountered, press "Merge pull request".
+
+### Deleting branch
+```python
+git branch -d feature-readme-instructions
+```
+

@@ -81,9 +81,9 @@ any changes made in the `feature-readme-instructions` will not show in `main` .
 
 To push the branch to github.
 ```python
-git push --set-upstream origin feature-readme-instructions $ this will push the branch to remote repo and wil make a push request to main branch
+git push --set-upstream origin feature-readme-instructions # this will push the branch to remote repo and wil make a push request to main branch
 ```
 
-In github a notif will show saying "make a pull request".
-In the comment write a description of changes made.
-If no problem encountered, press "Merge pull request".
+1. In github a notif will show saying "make a pull request".
+2. In the comment write a description of changes made.
+3. If no problem encountered, press "Merge pull request".

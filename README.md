@@ -22,3 +22,35 @@ Git Commands
 
 * `status` -> check to see which files are being tracked or need to be commited
 * `init` -> use this command inside of your project to turn it into a Git repository and start using Git with that codebase
+
+
+## Demo for pulling repository and pushing it to remote.
+
+git clone https://github.com/Jamil1016/Git_Github_Course.git
+cd ./Git_Github_Course
+
+*changes made*
+
+git status (*check the changes if there's untrack or modified*)
+git add . (*"." to track all ; "file name" if specific file only*)
+git commit -m "v0.1.0 README.md: Add Terms and Git Commands" (*This will saved the changes to local repository*)
+git push origin main (*to push the changes to remote repository ; "origin" is the git clone and  branch name "main"*)
+
+
+## Demo for making pushing  repository without pulling it first
+
+cd ./Git_Github_Course
+git init
+
+*changes made*
+
+git status
+git add .
+git commit -m "v0.0.0 Created README"
+
+*Create a repo in Github and copy the HTTPS local code(https://github.com/Jamil1016/Git_Github_Course.git)*
+
+git remote add origin https://github.com/Jamil1016/Git_Github_Course.git
+git remote -v (*To check any remote that is connected to the current local repo*)
+git push origin master
+

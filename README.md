@@ -93,3 +93,11 @@ git push --set-upstream origin feature-readme-instructions # this will push the 
 git branch -d feature-readme-instructions
 ```
 
+### Merging branch
+```python
+git diff main # To check whats the difference between the current branch "quik-test" and "main"
+git merge # To merge the two branches
+git commit -am "merging with master" # to save the merge changes in current branch "quick-test"
+```
+
+## Undoing Commit

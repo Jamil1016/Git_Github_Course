@@ -24,7 +24,9 @@ Git Commands
 * `init` -> use this command inside of your project to turn it into a Git repository and start using Git with that codebase
 
 
-## Demo for pulling repository and pushing it to remote.
+## Basic Commands
+
+### Demo for pulling repository and pushing it to remote.
 ```python 
 git clone https://github.com/Jamil1016/Git_Github_Course.git
 cd ./Git_Github_Course
@@ -38,7 +40,7 @@ git push origin main #(*to push the changes to remote repository ; "origin" is t
 ```
 
 
-## Demo for making local repo without pulling it from remote repo first
+### Demo for making local repo without pulling it from remote repo first
 ```python
 cd ./Git_Github_Course
 git init
@@ -53,3 +55,25 @@ git remote add origin https://github.com/Jamil1016/Git_Github_Course.git
 git remote -v #(*To check any remote that is connected to the current local repo*)
 git push origin master
 ```
+
+### Workflow
+
+![alt text](./Images/workflow.png)
+*Comparison of performing in Github and in local*
+
+## Git Branching
+
+Use to work seperately before commiting to main branch. This is always used in projects with multiple person working on a single project.
+
+![alt text](./Images/git_branching.png)
+*Shows how branchign works*
+
+```python
+git branch # To list down all the branches.
+git checkout -b feature-readme-instructions # To switch between branches (git checkout) by adding -b it creates new branch
+git branch # output : main, feature-readme-instructions ; "*" is the active.
+git checkout main #will activate the main.
+```
+### Results
+![alt text](./Images/branching_coding.png)
+

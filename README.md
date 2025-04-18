@@ -77,3 +77,13 @@ git checkout main #will activate the main.
 ### Results
 ![alt text](./Images/branching_coding.png)
 
+any changes made in the `feature-readme-instructions` will not show in `main` .
+
+To push the branch to github.
+```python
+git push --set-upstream origin feature-readme-instructions # this will push the branch to remote repo and wil make a push request to main branch
+```
+
+1. In github a notif will show saying "make a pull request".
+2. In the comment write a description of changes made.
+3. If no problem encountered, press "Merge pull request".

@@ -101,3 +101,18 @@ git commit -am "merging with master" # to save the merge changes in current bran
 ```
 
 ## Undoing Commit
+ To undo the changes made to the git
+
+ ```python
+ git reset
+
+ # To reset commit
+ git reset HEAD~1 # go back 1 commit further
+
+ # To see all the logs
+ git log
+ git reset cda28e91ba4ab80ea5b84041b04a95f1d0dfa37d
+
+ # to completely remove any changes
+ git reset --hard cda28e91ba4ab80ea5b84041b04a95f1d0dfa37d
+ ```
